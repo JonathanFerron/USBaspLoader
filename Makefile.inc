@@ -38,7 +38,7 @@ DANGEROUS=0
 # PROGRAMMER contains AVRDUDE options to address your programmer
 # PROGRAMMER = -c pony-stk200
 # PROGRAMMER = -c usbasp
-PROGRAMMER = -c avrisp -P /dev/cu.usbmodem* -b19200
+PROGRAMMER = -c avrisp -P com6 -b19200
 
 #  since USBaspLoader supports HAVE_BLB11_SOFTW_LOCKBIT...
 LOCKOPT = -U lock:w:0x3f:m
